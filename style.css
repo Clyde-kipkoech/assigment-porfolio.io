@@ -28,6 +28,9 @@
     text-decoration: none;
     color: white;
   }
+  .link:hover{
+    background-color: #00c896;
+  }
   .btn-hire {
     background-color: #00c896;
     color: white;
@@ -65,10 +68,17 @@
     background-color: #00c896;
     color: white;
   }
+  .btn-primary:hover{
+    background-color: #044d10;
+  }
   .btn-secondary {
-    background-color: transparent;
+    background-color: rgb(131, 232, 131);
     border: 1px solid #fff;
-    color: white;
+    color: rgb(236, 244, 240);
+  }
+  .btn-secondary:hover{
+    color:#023028;
+    background-color: #048104;
   }
   .hero-image img {
     width: 300px;
@@ -537,4 +547,7 @@ body {
 
 .back-to-top:hover {
   background-color: #00b294;
+}
+html {
+  scroll-behavior: smooth;
 }
